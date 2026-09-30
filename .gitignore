@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Generated Prisma client (re-created by `npm install` / `npm run db:generate`)
+src/generated/
+
+# Uploaded files (back them up with the database, never commit them)
+uploads/
+
+# Environment — commit only .env.example
+.env
+.env.*
+!.env.example
+!.env.test.example
+
+# Tests & coverage
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
